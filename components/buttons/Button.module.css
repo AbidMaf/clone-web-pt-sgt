@@ -1,0 +1,16 @@
+.button_container {
+    width: fit-content;
+    height: fit-content;
+    /* position: relative; */
+}
+
+.button_content {
+    border-width: 0.1em;
+    border-style: solid;
+    transition: transform 0.3s;
+}
+
+.button_content:hover {
+    transition: transform 0.3s;
+    transform: translate(20px, -20px);
+}

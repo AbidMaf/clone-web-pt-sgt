@@ -1,0 +1,51 @@
+.socials_container {
+    background-color: var(--background-pink);
+    width: 100vw;
+}
+
+.item_container_socials {
+    margin-block: 36px;
+    display: flex;
+    align-content: stretch;
+    grid-column-gap: 2%;
+    flex-flow: wrap;
+    justify-content: space-around;
+    grid-row-gap: 1em;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.social_card_socials {
+    width: 23%;
+    flex: none;
+    align-self: stretch;
+}
+
+.social_content_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 16px;
+}
+
+.social_content_socials > img {
+    filter: grayscale(100%);
+    width: 100%;
+    aspect-ratio: 1;
+    margin-bottom: 24px;
+}
+
+.social_name {
+    font-weight: 500;
+    text-align: center;
+    font-size: clamp(.6rem, 1.4vw, 2rem);
+    margin-bottom: .5em;
+}
+
+.social_role {
+    font-size: clamp(.4rem, 1.2vw, 1.8rem);
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}

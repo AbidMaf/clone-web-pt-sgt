@@ -1,0 +1,16 @@
+.about_container {
+    background-color: var(--background-white);
+    color: var(--text-black);
+    width: 100vw;
+}
+
+.quote_about {
+    border-left: .25rem solid #ff97d0;
+}
+
+.video_about {
+    border: var(--border-black);
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative
+}

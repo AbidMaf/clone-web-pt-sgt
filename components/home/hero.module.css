@@ -1,0 +1,22 @@
+.text {
+    color: var(--text-black);
+}
+
+.main {
+    background-color: var(--background-yellow);
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+}
+
+.logo_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.desc_about_hero {
+    text-align: center;
+}
+

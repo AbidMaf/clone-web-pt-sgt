@@ -1,0 +1,9 @@
+.projects_container {
+    background-color: var(--background-blue);
+    width: 100vw;
+}
+
+.animate_transition {
+    transition: transform 0.3s;
+    opacity: 1 !important;
+}

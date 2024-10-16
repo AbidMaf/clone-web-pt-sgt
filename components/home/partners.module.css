@@ -1,0 +1,21 @@
+.list_partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 36px;
+    column-gap: 1.6%;
+    align-items: center;
+}
+
+.partners_image {
+    max-width: 23%;
+    width: fit-content;
+}
+
+.partners_image > img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    filter: grayscale(100%);
+}
